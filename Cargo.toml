@@ -1,0 +1,24 @@
+[package]
+name = "valentine-tui"
+version = "0.1.0"
+edition = "2021"
+authors = ["Amane Kai / 雨音カイ"]
+description = "A playful terminal-base Valentine's Day proposal app"
+license = "MIT"
+keywords = ["tui", "valentine", "terminal", "interactive"]
+categories = ["command-line-utilities", "games"]
+
+[dependencies]
+ratatui = "0.28"
+crossterm = "0.28"
+tui-big-text = "0.6"
+rodio = "0.19"
+rand = "0.8"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
+
+
