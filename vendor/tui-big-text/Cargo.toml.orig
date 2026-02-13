@@ -1,0 +1,28 @@
+[package]
+name = "tui-big-text"
+version = "0.6.1"
+description = "A Ratatui widget for displaying big text in the terminal"
+documentation = "https://docs.rs/tui-big-text"
+
+authors.workspace = true
+categories.workspace = true
+edition.workspace = true
+keywords.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+derive_builder.workspace = true
+font8x8 = "0.3.1"
+itertools.workspace = true
+ratatui.workspace = true
+
+[dev-dependencies]
+color-eyre.workspace = true
+crossterm = { workspace = true, features = ["event-stream"] }
+futures.workspace = true
+indoc.workspace = true
+ratatui = { workspace = true, features = ["crossterm"] }
+strum.workspace = true
+tokio = { workspace = true, features = ["full"] }
