@@ -3,6 +3,9 @@
  A playful terminal-based Valentine's Day proposal app built with Rust and [ratatui](https://github.com/ratatui-org/ratatui). Ask someone to be your Valentine — right from your terminal.
 
 ---
+## Demo Image
+![DemoImage](assets/images/demo.png)
+---
 
 ## What it does
 
